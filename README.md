@@ -21,7 +21,7 @@ add "require" in js/css.
 
 ```
 //= require Bootstrap-Image-Gallery-rails
-*= require nprogress
+*= require Bootstrap-Image-Gallery-rails
 ```
 
 ## Contributing
