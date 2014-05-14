@@ -13,9 +13,8 @@ Gem::Specification.new do |spec|
   spec.homepage      = ""
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0")
-  spec.require_paths = ["lib"]
   spec.files = Dir["{lib,vendor}/**/*"] + ["LICENSE", "README.md"]
+  spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
