@@ -1,5 +1,5 @@
 # Bootstrap-Image-Gallery-Rails
-This is a Ruby on Rails gem for Bootstrap-Image-Gallery.
+This is a Ruby on Rails gem for [Bootstrap-Image-Gallery](https://github.com/blueimp/Bootstrap-Image-Gallery).
 
 ## Installation
 
@@ -95,9 +95,18 @@ Create a list of links to image files with the attribute **data-gallery** (optio
 ```
 
 
+## Requirements
+* [jQuery](http://jquery.com/) v. 1.9.0+
+* [Bootstrap](http://getbootstrap.com/) v. 3.0.0+
 
+## License
+Released under the [MIT license](http://www.opensource.org/licenses/MIT).
 
-# Contributing
+## Thanks
+* [blueimp](https://github.com/blueimp)
+* [twbs](https://github.com/twbs)
+
+## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/Bootstrap-Image-Gallery-rails/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
