@@ -45,6 +45,14 @@ JS: app/assets/javascripts/application.js
 //= require bootstrap-image-gallery
 ```
 
+Add twitter-bootstrap importing code.
+
+```
+$ rails g bootstrap:install
+
+```
+
+
 Do asset compiling.
 
 ```
