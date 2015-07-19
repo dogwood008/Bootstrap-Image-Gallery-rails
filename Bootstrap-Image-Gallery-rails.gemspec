@@ -16,6 +16,9 @@ Gem::Specification.new do |spec|
   spec.files = Dir["{lib,vendor}/**/*"] + ["LICENSE", "README.md"]
   spec.require_paths = ["lib"]
 
+  spec.add_dependency 'therubyracer'
+  spec.add_dependency 'less-rails'
+  spec.add_dependency 'twitter-bootstrap-rails'
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
 end
