@@ -134,6 +134,15 @@ Released under the [MIT license](http://www.opensource.org/licenses/MIT).
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
 
+## History
+
+- 1.0.1.3.1.0
+  - bug fix.
+    - fix dependencies
+    - fix path to assets
+- 1.0.0.3.1.0
+  - first version
+
 =======
 
 Bootstrap-Image-Gallery-rails
