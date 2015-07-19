@@ -22,12 +22,20 @@ Add "require" in css/js.
 
 ```
 CSS: app/assets/stylesheets/application.css
+ *= require_tree .
+ *= require_self
+
  *= require blueimp-gallery
  *= require bootstrap-image-gallery
  *= require blueimp-gallery-indicator
  *= require blueimp-gallery-video
 
 JS: app/assets/javascripts/application.js
+//= require jquery
+//= require jquery_ujs
+//= require turbolinks
+//= require_tree .
+
 //= require blueimp-gallery
 //= require blueimp-gallery-fullscreen
 //= require blueimp-gallery-indicator
