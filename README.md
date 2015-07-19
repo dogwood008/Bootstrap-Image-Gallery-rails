@@ -5,7 +5,7 @@ This is a Ruby on Rails gem for [Bootstrap-Image-Gallery](https://github.com/blu
 
 Add this line to your application's Gemfile:
 
-    gem 'Bootstrap-Image-Gallery-rails', github: 'dogwood008/Bootstrap-Image-Gallery-rails'
+    gem 'Bootstrap-Image-Gallery-rails'
 
 And then execute:
 
