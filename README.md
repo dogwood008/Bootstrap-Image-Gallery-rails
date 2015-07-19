@@ -21,13 +21,13 @@ Or install it yourself as:
 Add "require" in css/js.
 
 ```
-CSS:
+CSS: app/assets/stylesheets/application.css
  *= require blueimp-gallery
  *= require bootstrap-image-gallery
  *= require blueimp-gallery-indicator
  *= require blueimp-gallery-video
 
-JS:
+JS: app/assets/javascripts/application.js
 //= require blueimp-gallery
 //= require blueimp-gallery-fullscreen
 //= require blueimp-gallery-indicator
