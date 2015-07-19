@@ -5,7 +5,7 @@ This is a Ruby on Rails gem for [Bootstrap-Image-Gallery](https://github.com/blu
 
 Add this line to your application's Gemfile:
 
-    gem 'Bootstrap-Image-Gallery-rails', github: 'dogwood008/Bootstrap-Image-Gallery-rails'
+    gem 'Bootstrap-Image-Gallery-rails'
 
 And then execute:
 
@@ -21,21 +21,37 @@ Or install it yourself as:
 Add "require" in css/js.
 
 ```
-CSS:
+CSS: app/assets/stylesheets/application.css
+ *= require_tree .
+ *= require_self
+
  *= require blueimp-gallery
  *= require bootstrap-image-gallery
  *= require blueimp-gallery-indicator
  *= require blueimp-gallery-video
 
-JS:
+JS: app/assets/javascripts/application.js
+//= require jquery
+//= require jquery_ujs
+//= require turbolinks
+//= require_tree .
+
 //= require blueimp-gallery
 //= require blueimp-gallery-fullscreen
 //= require blueimp-gallery-indicator
 //= require blueimp-gallery-video
 //= require blueimp-gallery-youtube
 //= require jquery.blueimp-gallery
-//= require bootstrap-image-galler
+//= require bootstrap-image-gallery
 ```
+
+Add twitter-bootstrap importing code.
+
+```
+$ rails g bootstrap:install
+
+```
+
 
 Do asset compiling.
 
@@ -112,11 +128,20 @@ Released under the [MIT license](http://www.opensource.org/licenses/MIT).
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/Bootstrap-Image-Gallery-rails/fork )
+1. Fork it ( https://github.com/dogwood008/Bootstrap-Image-Gallery-rails/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+## History
+
+- 1.0.1.3.1.0
+  - bug fix.
+    - fix dependencies
+    - fix path to assets
+- 1.0.0.3.1.0
+  - first version
 
 =======
 
