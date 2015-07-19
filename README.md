@@ -34,7 +34,7 @@ JS:
 //= require blueimp-gallery-video
 //= require blueimp-gallery-youtube
 //= require jquery.blueimp-gallery
-//= require bootstrap-image-galler
+//= require bootstrap-image-gallery
 ```
 
 Do asset compiling.
